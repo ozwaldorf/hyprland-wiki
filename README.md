@@ -1,14 +1,22 @@
 # Hyprland Wiki
 
-Welcome to the Hyprland Wiki! Here we store the wiki pages. They are automatically updated on the
-website whenever a change occurs, within a reasonable timeframe. (usually 1–2 minutes)
+Hello there, dear traveler! Welcome to the Hyprland Wiki!
 
-## Contributing to the Wiki
+Take a tour of the pages on the left and read ones that you may need.
 
-Feel free to open an issue or a PR if you feel anything is necessary.
-Make sure to clearly state the reason for the changes. If you have questions regarding the wiki,
-you should consider joining our [Discord Server](https://discord.gg/hQ9XvMUjjr) instead.
+## Wayland info (especially useful for Xorg users)
 
-## License
+A Wayland compositor is a fully autonomous Display Server, like Xorg itself.
+It is **not** possible to mix'n'match Wayland compositors like you could on Xorg
+with window managers and compositors. It is also not entirely possible, nor recommended,
+to try and use all Xorg applications on Wayland. See [this page](../Useful-Utilities) for a
+list of recommended Wayland native/compatible programs.
 
-This repository is licensed under the [BSD 3-Clause License](LICENSE).
+Wayland **compositors** should not be confused with Xorg **window managers**.
+
+## IMPORTANT
+
+If you are having issues, please try [reading the FAQ](../FAQ) and configuring
+sections — chances are your issue is described somewhere there. If not, you can
+try [searching the issues](https://github.com/hyprwm/Hyprland/issues) or
+[joining the Discord server](https://discord.gg/hQ9XvMUjjr).
